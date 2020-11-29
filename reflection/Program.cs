@@ -16,7 +16,7 @@ namespace reflection
         public int i { get; set; }
     }
 
-    class gclass<T> where T : class{
+    class gclass<T> {
         public T ttype ;
         public gclass()
         {
